@@ -1,7 +1,7 @@
-myprog : main.o backup.o server.o monitor.o update.o lock_unlock.o
-	gcc -o myprog main.o backup.o server.o monitor.o update.o lock_unlock.o -lrt
+myprog : main.o backup.o monitor.o update.o lock_unlock.o
+	gcc -o myprog main.o backup.o monitor.o update.o lock_unlock.o
 
-main.o : main.c backup.h server.h monitor.h update.h lock_unlock.h
+main.o : main.c backup.h monitor.h update.h lock_unlock.h
 	gcc -c main.c
 
 backup.o : backup.c
@@ -10,7 +10,7 @@ backup.o : backup.c
 monitor.o : monitor.c
 	gcc -c monitor.c
 
-server.o : server.c backup.h
+server.o : server.c backup.h update.h
 	gcc -c server.c -lrt
 
 update.o : update.c 

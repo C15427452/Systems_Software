@@ -10,7 +10,6 @@
 #include <time.h>
 
 #include "backup.h"
-#include "server.h"
 #include "monitor.h"
 #include "update.h"
 #include "lock_unlock.h"
@@ -55,7 +54,6 @@ int main()
 	}	
 	else
 	{
-	    //server();
 	    monitor();
 	    umask(0);
 
@@ -78,8 +76,8 @@ int main()
 		syslog(LOG_INFO, "Daemon started");
 		time_t t = time(NULL);
 		struct tm lol = *localtime(&t);
-
-		if(lol.tm_hour == 15 && lol.tm_min == 5 && lol.tm_sec == 0)
+		//server();
+		if(lol.tm_hour == 17 && lol.tm_min == 26 && lol.tm_sec == 0)
 		{
 		    lock(intra_p);
 		    sleep(1);
