@@ -1,0 +1,7 @@
+----
+time->Mon Mar 16 03:01:45 2020
+type=PROCTITLE msg=audit(1584327705.761:1466): proctitle=676564697400696E6465782E68746D6C
+type=PATH msg=audit(1584327705.761:1466): item=1 name="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet/index.html" inode=142893 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=CREATE
+type=PATH msg=audit(1584327705.761:1466): item=0 name="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet/" inode=142757 dev=08:01 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1584327705.761:1466): cwd="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet"
+type=SYSCALL msg=audit(1584327705.761:1466): arch=c000003e syscall=2 success=yes exit=14 a0=5585cfdd7c50 a1=c1 a2=1b6 a3=aaaaaaaaaaaaaaab items=2 ppid=8156 pid=11950 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts13 ses=3 comm="pool" exe="/usr/bin/gedit" key=(null)
