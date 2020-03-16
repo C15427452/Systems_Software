@@ -5,3 +5,297 @@ type=PATH msg=audit(1584327705.761:1466): item=1 name="/home/yasminanunez/Deskto
 type=PATH msg=audit(1584327705.761:1466): item=0 name="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet/" inode=142757 dev=08:01 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT
 type=CWD msg=audit(1584327705.761:1466): cwd="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet"
 type=SYSCALL msg=audit(1584327705.761:1466): arch=c000003e syscall=2 success=yes exit=14 a0=5585cfdd7c50 a1=c1 a2=1b6 a3=aaaaaaaaaaaaaaab items=2 ppid=8156 pid=11950 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts13 ses=3 comm="pool" exe="/usr/bin/gedit" key=(null)
+----
+time->Mon Mar 16 14:06:52 2020
+type=PROCTITLE msg=audit(1584367612.059:1571): proctitle=676564697400696E6465782E68746D6C
+type=PATH msg=audit(1584367612.059:1571): item=0 name="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet/index.html" inode=142893 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1584367612.059:1571): cwd="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet"
+type=SYSCALL msg=audit(1584367612.059:1571): arch=c000003e syscall=2 success=yes exit=17 a0=564129794e90 a1=0 a2=0 a3=aaaaaaaaaaaaaaab items=1 ppid=8156 pid=12931 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts13 ses=3 comm="pool" exe="/usr/bin/gedit" key=(null)
+----
+time->Mon Mar 16 14:07:04 2020
+type=PROCTITLE msg=audit(1584367624.711:1574): proctitle=676564697400696E6465782E68746D6C
+type=PATH msg=audit(1584367624.711:1574): item=1 name="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet/index.html" inode=142893 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PATH msg=audit(1584367624.711:1574): item=0 name="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet/" inode=142757 dev=08:01 mode=040777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1584367624.711:1574): cwd="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet"
+type=SYSCALL msg=audit(1584367624.711:1574): arch=c000003e syscall=2 success=yes exit=17 a0=564129794e90 a1=20041 a2=1b6 a3=9e items=2 ppid=8156 pid=12931 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts13 ses=3 comm="pool" exe="/usr/bin/gedit" key=(null)
+----
+time->Mon Mar 16 14:07:04 2020
+type=PROCTITLE msg=audit(1584367624.711:1575): proctitle=676564697400696E6465782E68746D6C
+type=PATH msg=audit(1584367624.711:1575): item=1 name="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet/.goutputstream-6QK6G0" inode=144344 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=CREATE
+type=PATH msg=audit(1584367624.711:1575): item=0 name="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet/" inode=142757 dev=08:01 mode=040777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1584367624.711:1575): cwd="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet"
+type=SYSCALL msg=audit(1584367624.711:1575): arch=c000003e syscall=2 success=yes exit=18 a0=7f11fc017260 a1=c1 a2=1b6 a3=1534d0d6b67ef2 items=2 ppid=8156 pid=12931 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts13 ses=3 comm="pool" exe="/usr/bin/gedit" key=(null)
+----
+time->Mon Mar 16 14:07:04 2020
+type=PROCTITLE msg=audit(1584367624.707:1573): proctitle=676564697400696E6465782E68746D6C
+type=PATH msg=audit(1584367624.707:1573): item=1 name="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet/index.html" inode=142893 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PATH msg=audit(1584367624.707:1573): item=0 name="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet/" inode=142757 dev=08:01 mode=040777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1584367624.707:1573): cwd="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet"
+type=SYSCALL msg=audit(1584367624.707:1573): arch=c000003e syscall=2 success=no exit=-17 a0=564129794e90 a1=c1 a2=1b6 a3=aaaaaaaaaaaaaaab items=2 ppid=8156 pid=12931 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts13 ses=3 comm="pool" exe="/usr/bin/gedit" key=(null)
+----
+time->Mon Mar 16 14:07:04 2020
+type=PROCTITLE msg=audit(1584367624.719:1578): proctitle=676564697400696E6465782E68746D6C
+type=PATH msg=audit(1584367624.719:1578): item=4 name="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet/index.html" inode=144344 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=CREATE
+type=PATH msg=audit(1584367624.719:1578): item=3 name="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet/index.html" inode=142893 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=DELETE
+type=PATH msg=audit(1584367624.719:1578): item=2 name="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet/.goutputstream-6QK6G0" inode=144344 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=DELETE
+type=PATH msg=audit(1584367624.719:1578): item=1 name="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet/" inode=142757 dev=08:01 mode=040777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT
+type=PATH msg=audit(1584367624.719:1578): item=0 name="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet/" inode=142757 dev=08:01 mode=040777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1584367624.719:1578): cwd="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet"
+type=SYSCALL msg=audit(1584367624.719:1578): arch=c000003e syscall=82 success=yes exit=0 a0=7f11fc017260 a1=7f11fc022cc0 a2=0 a3=642 items=5 ppid=8156 pid=12931 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts13 ses=3 comm="pool" exe="/usr/bin/gedit" key=(null)
+----
+time->Mon Mar 16 14:14:32 2020
+type=PROCTITLE msg=audit(1584368072.732:1582): proctitle=676564697400696E6465782E68746D6C
+type=PATH msg=audit(1584368072.732:1582): item=0 name="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet/index.html" inode=144344 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1584368072.732:1582): cwd="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet"
+type=SYSCALL msg=audit(1584368072.732:1582): arch=c000003e syscall=2 success=yes exit=17 a0=55cf299eb130 a1=0 a2=0 a3=aaaaaaaaaaaaaaab items=1 ppid=8156 pid=13053 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts13 ses=3 comm="pool" exe="/usr/bin/gedit" key=(null)
+----
+time->Mon Mar 16 14:19:25 2020
+type=PROCTITLE msg=audit(1584368365.611:1596): proctitle=676564697400696E6465782E68746D6C
+type=PATH msg=audit(1584368365.611:1596): item=0 name="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet/index.html" inode=144344 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1584368365.611:1596): cwd="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet"
+type=SYSCALL msg=audit(1584368365.611:1596): arch=c000003e syscall=2 success=yes exit=17 a0=556d98279400 a1=0 a2=0 a3=aaaaaaaaaaaaaaab items=1 ppid=8156 pid=13130 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts13 ses=3 comm="pool" exe="/usr/bin/gedit" key=(null)
+----
+time->Mon Mar 16 14:21:14 2020
+type=PROCTITLE msg=audit(1584368474.240:1598): proctitle=6370002D7269002E2F7661722F7777772F68746D6C2F696E7472616E65742F2E002E2F6261636B75702F
+type=PATH msg=audit(1584368474.240:1598): item=0 name="./var/www/html/intranet/." inode=142757 dev=08:01 mode=040777 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1584368474.240:1598): cwd="/home/yasminanunez/Desktop/SS_Assign"
+type=SYSCALL msg=audit(1584368474.240:1598): arch=c000003e syscall=2 success=yes exit=3 a0=7ffc5c4c0e28 a1=90800 a2=22da5 a3=504 items=1 ppid=12550 pid=13145 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts15 ses=3 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Mon Mar 16 14:21:20 2020
+type=PROCTITLE msg=audit(1584368480.856:1599): proctitle=6370002D7269002E2F7661722F7777772F68746D6C2F696E7472616E65742F2E002E2F6261636B75702F
+type=PATH msg=audit(1584368480.856:1599): item=0 name="./var/www/html/intranet/./index.html" inode=144344 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1584368480.856:1599): cwd="/home/yasminanunez/Desktop/SS_Assign"
+type=SYSCALL msg=audit(1584368480.856:1599): arch=c000003e syscall=2 success=yes exit=3 a0=55cd7f8e1930 a1=20000 a2=0 a3=69f items=1 ppid=12550 pid=13145 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts15 ses=3 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Mon Mar 16 14:23:24 2020
+type=PROCTITLE msg=audit(1584368604.353:1600): proctitle=676564697400696E6465782E68746D6C
+type=PATH msg=audit(1584368604.353:1600): item=0 name="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet/index.html" inode=144344 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1584368604.353:1600): cwd="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet"
+type=SYSCALL msg=audit(1584368604.353:1600): arch=c000003e syscall=2 success=yes exit=17 a0=55d6dacb3090 a1=0 a2=0 a3=aaaaaaaaaaaaaaab items=1 ppid=8156 pid=13175 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts13 ses=3 comm="pool" exe="/usr/bin/gedit" key=(null)
+----
+time->Mon Mar 16 14:23:29 2020
+type=PROCTITLE msg=audit(1584368609.717:1603): proctitle=676564697400696E6465782E68746D6C
+type=PATH msg=audit(1584368609.717:1603): item=1 name="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet/index.html" inode=144344 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PATH msg=audit(1584368609.717:1603): item=0 name="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet/" inode=142757 dev=08:01 mode=040777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1584368609.717:1603): cwd="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet"
+type=SYSCALL msg=audit(1584368609.717:1603): arch=c000003e syscall=2 success=yes exit=17 a0=55d6dacb3090 a1=20041 a2=1b6 a3=9e items=2 ppid=8156 pid=13175 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts13 ses=3 comm="pool" exe="/usr/bin/gedit" key=(null)
+----
+time->Mon Mar 16 14:23:29 2020
+type=PROCTITLE msg=audit(1584368609.717:1604): proctitle=676564697400696E6465782E68746D6C
+type=PATH msg=audit(1584368609.717:1604): item=1 name="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet/.goutputstream-3AB5G0" inode=131963 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=CREATE
+type=PATH msg=audit(1584368609.717:1604): item=0 name="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet/" inode=142757 dev=08:01 mode=040777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1584368609.717:1604): cwd="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet"
+type=SYSCALL msg=audit(1584368609.717:1604): arch=c000003e syscall=2 success=yes exit=18 a0=7f24600038c0 a1=c1 a2=1b6 a3=156090f658a10f items=2 ppid=8156 pid=13175 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts13 ses=3 comm="pool" exe="/usr/bin/gedit" key=(null)
+----
+time->Mon Mar 16 14:23:29 2020
+type=PROCTITLE msg=audit(1584368609.717:1602): proctitle=676564697400696E6465782E68746D6C
+type=PATH msg=audit(1584368609.717:1602): item=1 name="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet/index.html" inode=144344 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PATH msg=audit(1584368609.717:1602): item=0 name="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet/" inode=142757 dev=08:01 mode=040777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1584368609.717:1602): cwd="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet"
+type=SYSCALL msg=audit(1584368609.717:1602): arch=c000003e syscall=2 success=no exit=-17 a0=55d6dacb3090 a1=c1 a2=1b6 a3=aaaaaaaaaaaaaaab items=2 ppid=8156 pid=13175 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts13 ses=3 comm="pool" exe="/usr/bin/gedit" key=(null)
+----
+time->Mon Mar 16 14:23:29 2020
+type=PROCTITLE msg=audit(1584368609.729:1607): proctitle=676564697400696E6465782E68746D6C
+type=PATH msg=audit(1584368609.729:1607): item=4 name="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet/index.html" inode=131963 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=CREATE
+type=PATH msg=audit(1584368609.729:1607): item=3 name="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet/index.html" inode=144344 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=DELETE
+type=PATH msg=audit(1584368609.729:1607): item=2 name="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet/.goutputstream-3AB5G0" inode=131963 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=DELETE
+type=PATH msg=audit(1584368609.729:1607): item=1 name="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet/" inode=142757 dev=08:01 mode=040777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT
+type=PATH msg=audit(1584368609.729:1607): item=0 name="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet/" inode=142757 dev=08:01 mode=040777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1584368609.729:1607): cwd="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet"
+type=SYSCALL msg=audit(1584368609.729:1607): arch=c000003e syscall=82 success=yes exit=0 a0=7f24600038c0 a1=7f2460003870 a2=0 a3=642 items=5 ppid=8156 pid=13175 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts13 ses=3 comm="pool" exe="/usr/bin/gedit" key=(null)
+----
+time->Mon Mar 16 14:23:40 2020
+type=PROCTITLE msg=audit(1584368620.713:1609): proctitle=676564697400696E6465782E68746D6C
+type=PATH msg=audit(1584368620.713:1609): item=1 name="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet/index.html" inode=131963 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PATH msg=audit(1584368620.713:1609): item=0 name="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet/" inode=142757 dev=08:01 mode=040777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1584368620.713:1609): cwd="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet"
+type=SYSCALL msg=audit(1584368620.713:1609): arch=c000003e syscall=2 success=yes exit=17 a0=55d6dacb3090 a1=20041 a2=1b6 a3=aaaaaaaaaaaaaaab items=2 ppid=8156 pid=13175 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts13 ses=3 comm="pool" exe="/usr/bin/gedit" key=(null)
+----
+time->Mon Mar 16 14:23:40 2020
+type=PROCTITLE msg=audit(1584368620.713:1610): proctitle=676564697400696E6465782E68746D6C
+type=PATH msg=audit(1584368620.713:1610): item=1 name="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet/.goutputstream-MAO6G0" inode=131673 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=CREATE
+type=PATH msg=audit(1584368620.713:1610): item=0 name="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet/" inode=142757 dev=08:01 mode=040777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1584368620.713:1610): cwd="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet"
+type=SYSCALL msg=audit(1584368620.713:1610): arch=c000003e syscall=2 success=yes exit=18 a0=7f24600038f0 a1=c1 a2=1b6 a3=1545433c4db427 items=2 ppid=8156 pid=13175 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts13 ses=3 comm="pool" exe="/usr/bin/gedit" key=(null)
+----
+time->Mon Mar 16 14:23:40 2020
+type=PROCTITLE msg=audit(1584368620.725:1613): proctitle=676564697400696E6465782E68746D6C
+type=PATH msg=audit(1584368620.725:1613): item=4 name="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet/index.html" inode=131673 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=CREATE
+type=PATH msg=audit(1584368620.725:1613): item=3 name="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet/index.html" inode=131963 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=DELETE
+type=PATH msg=audit(1584368620.725:1613): item=2 name="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet/.goutputstream-MAO6G0" inode=131673 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=DELETE
+type=PATH msg=audit(1584368620.725:1613): item=1 name="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet/" inode=142757 dev=08:01 mode=040777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT
+type=PATH msg=audit(1584368620.725:1613): item=0 name="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet/" inode=142757 dev=08:01 mode=040777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1584368620.725:1613): cwd="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet"
+type=SYSCALL msg=audit(1584368620.725:1613): arch=c000003e syscall=82 success=yes exit=0 a0=7f24600038f0 a1=7f24600039f0 a2=0 a3=0 items=5 ppid=8156 pid=13175 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts13 ses=3 comm="pool" exe="/usr/bin/gedit" key=(null)
+----
+time->Mon Mar 16 14:23:40 2020
+type=PROCTITLE msg=audit(1584368620.709:1608): proctitle=676564697400696E6465782E68746D6C
+type=PATH msg=audit(1584368620.709:1608): item=1 name="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet/index.html" inode=131963 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PATH msg=audit(1584368620.709:1608): item=0 name="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet/" inode=142757 dev=08:01 mode=040777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1584368620.709:1608): cwd="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet"
+type=SYSCALL msg=audit(1584368620.709:1608): arch=c000003e syscall=2 success=no exit=-17 a0=55d6dacb3090 a1=c1 a2=1b6 a3=aaaaaaaaaaaaaaab items=2 ppid=8156 pid=13175 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts13 ses=3 comm="pool" exe="/usr/bin/gedit" key=(null)
+----
+time->Mon Mar 16 14:30:45 2020
+type=PROCTITLE msg=audit(1584369045.273:1618): proctitle=676564697400696E6465782E68746D6C
+type=PATH msg=audit(1584369045.273:1618): item=0 name="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet/index.html" inode=131673 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1584369045.273:1618): cwd="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet"
+type=SYSCALL msg=audit(1584369045.273:1618): arch=c000003e syscall=2 success=yes exit=17 a0=557d0eff83c0 a1=0 a2=0 a3=aaaaaaaaaaaaaaab items=1 ppid=8156 pid=13286 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts13 ses=3 comm="pool" exe="/usr/bin/gedit" key=(null)
+----
+time->Mon Mar 16 14:53:39 2020
+type=PROCTITLE msg=audit(1584370419.994:1647): proctitle=676564697400696E6465782E68746D6C
+type=PATH msg=audit(1584370419.994:1647): item=0 name="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet/index.html" inode=131673 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1584370419.994:1647): cwd="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet"
+type=SYSCALL msg=audit(1584370419.994:1647): arch=c000003e syscall=2 success=yes exit=17 a0=55a1cb24ba90 a1=0 a2=0 a3=aaaaaaaaaaaaaaab items=1 ppid=8156 pid=13532 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts13 ses=3 comm="pool" exe="/usr/bin/gedit" key=(null)
+----
+time->Mon Mar 16 14:53:44 2020
+type=PROCTITLE msg=audit(1584370424.250:1650): proctitle=676564697400696E6465782E68746D6C
+type=PATH msg=audit(1584370424.250:1650): item=1 name="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet/index.html" inode=131673 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PATH msg=audit(1584370424.250:1650): item=0 name="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet/" inode=142757 dev=08:01 mode=040777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1584370424.250:1650): cwd="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet"
+type=SYSCALL msg=audit(1584370424.250:1650): arch=c000003e syscall=2 success=yes exit=17 a0=55a1cb24ba90 a1=20041 a2=1b6 a3=9e items=2 ppid=8156 pid=13532 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts13 ses=3 comm="pool" exe="/usr/bin/gedit" key=(null)
+----
+time->Mon Mar 16 14:53:44 2020
+type=PROCTITLE msg=audit(1584370424.250:1651): proctitle=676564697400696E6465782E68746D6C
+type=PATH msg=audit(1584370424.250:1651): item=1 name="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet/.goutputstream-U58FH0" inode=143031 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=CREATE
+type=PATH msg=audit(1584370424.250:1651): item=0 name="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet/" inode=142757 dev=08:01 mode=040777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1584370424.250:1651): cwd="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet"
+type=SYSCALL msg=audit(1584370424.250:1651): arch=c000003e syscall=2 success=yes exit=18 a0=7f8a880250c0 a1=c1 a2=1b6 a3=7798d089fc35a items=2 ppid=8156 pid=13532 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts13 ses=3 comm="pool" exe="/usr/bin/gedit" key=(null)
+----
+time->Mon Mar 16 14:53:44 2020
+type=PROCTITLE msg=audit(1584370424.242:1649): proctitle=676564697400696E6465782E68746D6C
+type=PATH msg=audit(1584370424.242:1649): item=1 name="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet/index.html" inode=131673 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PATH msg=audit(1584370424.242:1649): item=0 name="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet/" inode=142757 dev=08:01 mode=040777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1584370424.242:1649): cwd="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet"
+type=SYSCALL msg=audit(1584370424.242:1649): arch=c000003e syscall=2 success=no exit=-17 a0=55a1cb24ba90 a1=c1 a2=1b6 a3=aaaaaaaaaaaaaaab items=2 ppid=8156 pid=13532 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts13 ses=3 comm="pool" exe="/usr/bin/gedit" key=(null)
+----
+time->Mon Mar 16 14:53:44 2020
+type=PROCTITLE msg=audit(1584370424.258:1654): proctitle=676564697400696E6465782E68746D6C
+type=PATH msg=audit(1584370424.258:1654): item=4 name="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet/index.html" inode=143031 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=CREATE
+type=PATH msg=audit(1584370424.258:1654): item=3 name="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet/index.html" inode=131673 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=DELETE
+type=PATH msg=audit(1584370424.258:1654): item=2 name="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet/.goutputstream-U58FH0" inode=143031 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=DELETE
+type=PATH msg=audit(1584370424.258:1654): item=1 name="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet/" inode=142757 dev=08:01 mode=040777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT
+type=PATH msg=audit(1584370424.258:1654): item=0 name="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet/" inode=142757 dev=08:01 mode=040777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1584370424.258:1654): cwd="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet"
+type=SYSCALL msg=audit(1584370424.258:1654): arch=c000003e syscall=82 success=yes exit=0 a0=7f8a880250c0 a1=7f8a88009a90 a2=0 a3=642 items=5 ppid=8156 pid=13532 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts13 ses=3 comm="pool" exe="/usr/bin/gedit" key=(null)
+----
+time->Mon Mar 16 14:56:03 2020
+type=PROCTITLE msg=audit(1584370563.312:1659): proctitle=6370002D72002E2F686F6D652F7961736D696E616E756E657A2F4465736B746F702F53535F41737369676E2F7661722F7777772F68746D6C2F696E7472616E65742F2E002E2F686F6D652F7961736D696E616E756E657A2F4465736B746F702F53535F41737369676E2F7661722F7777772F68746D6C2F6C697665
+type=PATH msg=audit(1584370563.312:1659): item=0 name="./home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet/." inode=142757 dev=08:01 mode=040777 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1584370563.312:1659): cwd="/"
+type=SYSCALL msg=audit(1584370563.312:1659): arch=c000003e syscall=2 success=yes exit=0 a0=7fffd362fdf8 a1=90800 a2=22da5 a3=504 items=1 ppid=13576 pid=13577 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=3 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Mon Mar 16 14:56:03 2020
+type=PROCTITLE msg=audit(1584370563.312:1660): proctitle=6370002D72002E2F686F6D652F7961736D696E616E756E657A2F4465736B746F702F53535F41737369676E2F7661722F7777772F68746D6C2F696E7472616E65742F2E002E2F686F6D652F7961736D696E616E756E657A2F4465736B746F702F53535F41737369676E2F7661722F7777772F68746D6C2F6C697665
+type=PATH msg=audit(1584370563.312:1660): item=0 name="./home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet/./index.html" inode=143031 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1584370563.312:1660): cwd="/"
+type=SYSCALL msg=audit(1584370563.312:1660): arch=c000003e syscall=2 success=yes exit=0 a0=55c4bb922990 a1=20000 a2=0 a3=69f items=1 ppid=13576 pid=13577 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=3 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Mon Mar 16 14:56:03 2020
+type=PROCTITLE msg=audit(1584370563.320:1662): proctitle=6370002D72002E2F686F6D652F7961736D696E616E756E657A2F4465736B746F702F53535F41737369676E2F7661722F7777772F68746D6C2F696E7472616E65742F2E002E2F686F6D652F7961736D696E616E756E657A2F4465736B746F702F53535F41737369676E2F7661722F7777772F68746D6C2F6C697665
+type=PATH msg=audit(1584370563.320:1662): item=0 name="./home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet/." inode=142757 dev=08:01 mode=040777 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1584370563.320:1662): cwd="/"
+type=SYSCALL msg=audit(1584370563.320:1662): arch=c000003e syscall=2 success=yes exit=0 a0=7fff425cadf8 a1=90800 a2=22da5 a3=504 items=1 ppid=13578 pid=13579 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=3 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Mon Mar 16 14:56:03 2020
+type=PROCTITLE msg=audit(1584370563.320:1663): proctitle=6370002D72002E2F686F6D652F7961736D696E616E756E657A2F4465736B746F702F53535F41737369676E2F7661722F7777772F68746D6C2F696E7472616E65742F2E002E2F686F6D652F7961736D696E616E756E657A2F4465736B746F702F53535F41737369676E2F7661722F7777772F68746D6C2F6C697665
+type=PATH msg=audit(1584370563.320:1663): item=0 name="./home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet/./index.html" inode=143031 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1584370563.320:1663): cwd="/"
+type=SYSCALL msg=audit(1584370563.320:1663): arch=c000003e syscall=2 success=yes exit=0 a0=55dc97a73990 a1=20000 a2=0 a3=69f items=1 ppid=13578 pid=13579 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=3 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Mon Mar 16 14:57:20 2020
+type=PROCTITLE msg=audit(1584370640.743:1668): proctitle=676564697400696E6465782E68746D6C
+type=PATH msg=audit(1584370640.743:1668): item=0 name="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet/index.html" inode=143031 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1584370640.743:1668): cwd="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet"
+type=SYSCALL msg=audit(1584370640.743:1668): arch=c000003e syscall=2 success=yes exit=17 a0=565425b2df50 a1=0 a2=0 a3=aaaaaaaaaaaaaaab items=1 ppid=8156 pid=13590 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts13 ses=3 comm="pool" exe="/usr/bin/gedit" key=(null)
+----
+time->Mon Mar 16 14:57:24 2020
+type=PROCTITLE msg=audit(1584370644.703:1671): proctitle=676564697400696E6465782E68746D6C
+type=PATH msg=audit(1584370644.703:1671): item=1 name="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet/index.html" inode=143031 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PATH msg=audit(1584370644.703:1671): item=0 name="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet/" inode=142757 dev=08:01 mode=040777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1584370644.703:1671): cwd="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet"
+type=SYSCALL msg=audit(1584370644.703:1671): arch=c000003e syscall=2 success=yes exit=17 a0=565425b2df50 a1=20041 a2=1b6 a3=9e items=2 ppid=8156 pid=13590 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts13 ses=3 comm="pool" exe="/usr/bin/gedit" key=(null)
+----
+time->Mon Mar 16 14:57:24 2020
+type=PROCTITLE msg=audit(1584370644.703:1672): proctitle=676564697400696E6465782E68746D6C
+type=PATH msg=audit(1584370644.703:1672): item=1 name="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet/.goutputstream-U4D6G0" inode=143030 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=CREATE
+type=PATH msg=audit(1584370644.703:1672): item=0 name="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet/" inode=142757 dev=08:01 mode=040777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1584370644.703:1672): cwd="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet"
+type=SYSCALL msg=audit(1584370644.703:1672): arch=c000003e syscall=2 success=yes exit=18 a0=7f796c024000 a1=c1 a2=1b6 a3=14f56f3b308b4e items=2 ppid=8156 pid=13590 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts13 ses=3 comm="pool" exe="/usr/bin/gedit" key=(null)
+----
+time->Mon Mar 16 14:57:24 2020
+type=PROCTITLE msg=audit(1584370644.703:1670): proctitle=676564697400696E6465782E68746D6C
+type=PATH msg=audit(1584370644.703:1670): item=1 name="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet/index.html" inode=143031 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PATH msg=audit(1584370644.703:1670): item=0 name="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet/" inode=142757 dev=08:01 mode=040777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1584370644.703:1670): cwd="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet"
+type=SYSCALL msg=audit(1584370644.703:1670): arch=c000003e syscall=2 success=no exit=-17 a0=565425b2df50 a1=c1 a2=1b6 a3=aaaaaaaaaaaaaaab items=2 ppid=8156 pid=13590 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts13 ses=3 comm="pool" exe="/usr/bin/gedit" key=(null)
+----
+time->Mon Mar 16 14:57:24 2020
+type=PROCTITLE msg=audit(1584370644.715:1675): proctitle=676564697400696E6465782E68746D6C
+type=PATH msg=audit(1584370644.715:1675): item=4 name="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet/index.html" inode=143030 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=CREATE
+type=PATH msg=audit(1584370644.715:1675): item=3 name="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet/index.html" inode=143031 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=DELETE
+type=PATH msg=audit(1584370644.715:1675): item=2 name="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet/.goutputstream-U4D6G0" inode=143030 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=DELETE
+type=PATH msg=audit(1584370644.715:1675): item=1 name="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet/" inode=142757 dev=08:01 mode=040777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT
+type=PATH msg=audit(1584370644.715:1675): item=0 name="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet/" inode=142757 dev=08:01 mode=040777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1584370644.715:1675): cwd="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet"
+type=SYSCALL msg=audit(1584370644.715:1675): arch=c000003e syscall=82 success=yes exit=0 a0=7f796c024000 a1=7f796c009e90 a2=0 a3=642 items=5 ppid=8156 pid=13590 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts13 ses=3 comm="pool" exe="/usr/bin/gedit" key=(null)
+----
+time->Mon Mar 16 15:02:27 2020
+type=PROCTITLE msg=audit(1584370947.006:1682): proctitle=676564697400696E6465782E68746D6C
+type=PATH msg=audit(1584370947.006:1682): item=0 name="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet/index.html" inode=143030 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1584370947.006:1682): cwd="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet"
+type=SYSCALL msg=audit(1584370947.006:1682): arch=c000003e syscall=2 success=yes exit=17 a0=56266ffaa4e0 a1=0 a2=0 a3=aaaaaaaaaaaaaaab items=1 ppid=8156 pid=13662 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts13 ses=3 comm="pool" exe="/usr/bin/gedit" key=(null)
+----
+time->Mon Mar 16 15:02:29 2020
+type=PROCTITLE msg=audit(1584370949.870:1684): proctitle=676564697400696E6465782E68746D6C
+type=PATH msg=audit(1584370949.870:1684): item=1 name="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet/index.html" inode=143030 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PATH msg=audit(1584370949.870:1684): item=0 name="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet/" inode=142757 dev=08:01 mode=040777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1584370949.870:1684): cwd="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet"
+type=SYSCALL msg=audit(1584370949.870:1684): arch=c000003e syscall=2 success=no exit=-17 a0=56266ffaa4e0 a1=c1 a2=1b6 a3=aaaaaaaaaaaaaaab items=2 ppid=8156 pid=13662 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts13 ses=3 comm="pool" exe="/usr/bin/gedit" key=(null)
+----
+time->Mon Mar 16 15:02:29 2020
+type=PROCTITLE msg=audit(1584370949.870:1685): proctitle=676564697400696E6465782E68746D6C
+type=PATH msg=audit(1584370949.870:1685): item=1 name="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet/index.html" inode=143030 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PATH msg=audit(1584370949.870:1685): item=0 name="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet/" inode=142757 dev=08:01 mode=040777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1584370949.870:1685): cwd="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet"
+type=SYSCALL msg=audit(1584370949.870:1685): arch=c000003e syscall=2 success=yes exit=17 a0=56266ffaa4e0 a1=20041 a2=1b6 a3=9e items=2 ppid=8156 pid=13662 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts13 ses=3 comm="pool" exe="/usr/bin/gedit" key=(null)
+----
+time->Mon Mar 16 15:02:29 2020
+type=PROCTITLE msg=audit(1584370949.870:1686): proctitle=676564697400696E6465782E68746D6C
+type=PATH msg=audit(1584370949.870:1686): item=1 name="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet/.goutputstream-5QW2G0" inode=136577 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=CREATE
+type=PATH msg=audit(1584370949.870:1686): item=0 name="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet/" inode=142757 dev=08:01 mode=040777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1584370949.870:1686): cwd="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet"
+type=SYSCALL msg=audit(1584370949.870:1686): arch=c000003e syscall=2 success=yes exit=18 a0=7fd46c003ec0 a1=c1 a2=1b6 a3=19f4cfff26602b items=2 ppid=8156 pid=13662 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts13 ses=3 comm="pool" exe="/usr/bin/gedit" key=(null)
+----
+time->Mon Mar 16 15:02:29 2020
+type=PROCTITLE msg=audit(1584370949.882:1689): proctitle=676564697400696E6465782E68746D6C
+type=PATH msg=audit(1584370949.882:1689): item=4 name="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet/index.html" inode=136577 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=CREATE
+type=PATH msg=audit(1584370949.882:1689): item=3 name="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet/index.html" inode=143030 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=DELETE
+type=PATH msg=audit(1584370949.882:1689): item=2 name="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet/.goutputstream-5QW2G0" inode=136577 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=DELETE
+type=PATH msg=audit(1584370949.882:1689): item=1 name="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet/" inode=142757 dev=08:01 mode=040777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT
+type=PATH msg=audit(1584370949.882:1689): item=0 name="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet/" inode=142757 dev=08:01 mode=040777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1584370949.882:1689): cwd="/home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet"
+type=SYSCALL msg=audit(1584370949.882:1689): arch=c000003e syscall=82 success=yes exit=0 a0=7fd46c003ec0 a1=7fd46c0241a0 a2=0 a3=642 items=5 ppid=8156 pid=13662 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts13 ses=3 comm="pool" exe="/usr/bin/gedit" key=(null)
+----
+time->Mon Mar 16 15:03:02 2020
+type=PROCTITLE msg=audit(1584370982.556:1695): proctitle=6370002D72002E2F686F6D652F7961736D696E616E756E657A2F4465736B746F702F53535F41737369676E2F7661722F7777772F68746D6C2F696E7472616E65742F2E002E2F686F6D652F7961736D696E616E756E657A2F4465736B746F702F53535F41737369676E2F7661722F7777772F68746D6C2F6C697665
+type=PATH msg=audit(1584370982.556:1695): item=0 name="./home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet/." inode=142757 dev=08:01 mode=040300 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1584370982.556:1695): cwd="/"
+type=SYSCALL msg=audit(1584370982.556:1695): arch=c000003e syscall=2 success=yes exit=0 a0=7ffd6b239df8 a1=90800 a2=22da5 a3=504 items=1 ppid=13672 pid=13673 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=3 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Mon Mar 16 15:03:02 2020
+type=PROCTITLE msg=audit(1584370982.556:1696): proctitle=6370002D72002E2F686F6D652F7961736D696E616E756E657A2F4465736B746F702F53535F41737369676E2F7661722F7777772F68746D6C2F696E7472616E65742F2E002E2F686F6D652F7961736D696E616E756E657A2F4465736B746F702F53535F41737369676E2F7661722F7777772F68746D6C2F6C697665
+type=PATH msg=audit(1584370982.556:1696): item=0 name="./home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet/./index.html" inode=136577 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1584370982.556:1696): cwd="/"
+type=SYSCALL msg=audit(1584370982.556:1696): arch=c000003e syscall=2 success=yes exit=0 a0=564823ae8990 a1=20000 a2=0 a3=69f items=1 ppid=13672 pid=13673 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=3 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Mon Mar 16 15:03:02 2020
+type=PROCTITLE msg=audit(1584370982.564:1698): proctitle=6370002D72002E2F686F6D652F7961736D696E616E756E657A2F4465736B746F702F53535F41737369676E2F7661722F7777772F68746D6C2F696E7472616E65742F2E002E2F686F6D652F7961736D696E616E756E657A2F4465736B746F702F53535F41737369676E2F7661722F7777772F68746D6C2F6C697665
+type=PATH msg=audit(1584370982.564:1698): item=0 name="./home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet/." inode=142757 dev=08:01 mode=040300 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1584370982.564:1698): cwd="/"
+type=SYSCALL msg=audit(1584370982.564:1698): arch=c000003e syscall=2 success=yes exit=0 a0=7ffd9d038df8 a1=90800 a2=22da5 a3=504 items=1 ppid=13674 pid=13675 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=3 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Mon Mar 16 15:03:02 2020
+type=PROCTITLE msg=audit(1584370982.576:1699): proctitle=6370002D72002E2F686F6D652F7961736D696E616E756E657A2F4465736B746F702F53535F41737369676E2F7661722F7777772F68746D6C2F696E7472616E65742F2E002E2F686F6D652F7961736D696E616E756E657A2F4465736B746F702F53535F41737369676E2F7661722F7777772F68746D6C2F6C697665
+type=PATH msg=audit(1584370982.576:1699): item=0 name="./home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet/./index.html" inode=136577 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1584370982.576:1699): cwd="/"
+type=SYSCALL msg=audit(1584370982.576:1699): arch=c000003e syscall=2 success=yes exit=0 a0=55b9137ef990 a1=20000 a2=0 a3=69f items=1 ppid=13674 pid=13675 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=3 comm="cp" exe="/bin/cp" key=(null)

@@ -13,9 +13,9 @@ void update()
 {
     openlog("Update", LOG_PID|LOG_CONS, LOG_USER);
 
-    char command[100];
+    char command[255];
 
-    strcpy(command, "cp -r ./var/www/html/intranet. ./var/www/html/live");
+    strcpy(command, "cp -r ./home/yasminanunez/Desktop/SS_Assign/var/www/html/intranet/. ./home/yasminanunez/Desktop/SS_Assign/var/www/html/live");
     system(command);
  
     if(system(command) < 0)

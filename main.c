@@ -79,19 +79,19 @@ int main()
 		time_t t = time(NULL);
 		struct tm lol = *localtime(&t);
 
-		if(lol.tm_hour == 4 && lol.tm_min == 33 && lol.tm_sec == 0)
+		if(lol.tm_hour == 15 && lol.tm_min == 5 && lol.tm_sec == 0)
 		{
-		    lock(live_p);
+		    lock(intra_p);
 		    sleep(1);
 		    backup();
 		    sleep(1);
 		    syslog(LOG_INFO, "Successfully Backed Up");
-		    sleep(1);
+		    //sleep(1);
 		    update();
-		    sleep(1);
+		    //sleep(1);
 		    syslog(LOG_INFO, "Successfully Updated Live");
 		    sleep(1);
-		    unlock(live_p);
+		    unlock(intra_p);
 		}		     
 	    }
 	}

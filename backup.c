@@ -15,7 +15,7 @@ void backup()
 
     char command[100];
 
-    strcpy(command, "cp -r ./var/www/html/live. ./backup");
+    strcpy(command, "cp -r ./home/yasminanunez/Desktop/SS_Assign/var/www/html/live/. ./home/yasminanunez/Desktop/SS_Assign/backup");
     system(command);
  
     if(system(command) < 0)
